@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:weightSum="10">
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/maybay"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <ImageView
+        android:layout_margin="16dp"
+        android:src="@drawable/maybay2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Anh tren may bay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
